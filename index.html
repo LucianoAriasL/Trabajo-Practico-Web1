@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/design_responsive.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Arias Bartenders</title>
+</head>
+<body>
+    <header>
+        <img src="imagenes/logo/logo1.jpg" alt="logo arias bartenders">
+    </header>
+    <div class="btn-menu"> 
+        <img src="imagenes/menuHamburguesa.jpg" alt="Menu">
+    </div>
+    <div class="links">
+        <div class="redes">
+            <a href="https://www.facebook.com/Arias.Bartenders.oficial" target="_blank"><img  src="imagenes/redes_sociales/facebook.jpg" alt="facebook"></a>
+            <a href="https://www.instagram.com/arias.bartenders/?hl=es-la" target="_blank"><img  src="imagenes/redes_sociales/instagram.jpg" alt="instagram"></a>
+        </div>   
+        <nav>
+            <ul class="navegador">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="cartas_de_tragos.html">Cartas</a></li>
+                <li><a href="tipos_de_barras.html">Barras</a></li>
+                <li><a href="#nosotros">Quienes Somos</a></li>   
+            </ul>
+        </nav>             
+    </div>
+    
+    <div class="info_servicio">
+        <div class="carta_tragos">
+            <a href="cartas_de_tragos.html" target="_blank"><img src="imagenes/logos_servicios/cocktail.jpg" alt="cocktails"></a>
+        </div>
+        <div class="tipos_de_barras">
+            <a href="tipos_de_barras.html" target="_blank"><img src="imagenes/logos_servicios/barras.jpg" alt="tipos de barras"></a>
+        </div>
+        <div class="imagenes_eventos">
+            <a href="imagenes_eventos.html" target="_blank"><img src="imagenes/logos_servicios/eventos.jpg" alt="eventos"></a>
+        </div>
+    </div>
+    <div class="clientes_nosotros">
+        <div class="reseñas">
+            <h2>Reseñas de clientes:</h2>
+            <div>
+                <p>"Muy buena atención y exquisitos los tragos 😋😄💪 super recomendables"</p>
+                <p>Soledad, 28 años</p>
+            </div>
+            <div>
+                <p>"Muy buenos los tragos, super recomendables"</p>
+                <p>Federico, 26 años</p>
+            </div>
+            <div>
+                <p>"El servicio es excelente! Los tragos unos mas rico que otro! Los chicos super cálidos y amables con los invitados, todos me escribieron para felicitarme por el servicio de la barra!</p>
+                <p>Ines, 40 años</p>
+            </div>
+        </div>
+        <div id="nosotros" class="quienes_somos">
+            <h2>Quienes somos</h2>
+            <img src="imagenes/inicio/quienes_somos.jpg" alt="equipo arias bartenders">
+            <p>Somos una empresa familiar dedicada al servicio de barras moviles para eventos
+                con mas de 10 años brindando calidad y los mejores cocktails a nuestros clientes
+                para que su fiesta sea unica.
+            </p>
+        </div>
+    </div>
+    <h3 class="contactanos">Contactanos con tu tipo de fiesta ideal!</h3>
+    <div class="contacto">
+        <form>
+            <div>
+                <label for="Nombre">Nombre y Apellido</label>
+                <input type="text" name="Nombre" id="nom_y_ap">
+            </div>
+            <div>
+                <label for="tipo de evento">Tipo de evento</label>
+                <select name="tipo_evento" id="evento">
+                    <option value="evento">Cumpleaños de 15</option>
+                    <option value="evento">Casamiento</option>
+                    <option value="evento">Egreso</option>
+                    <option value="evento">Otro</option>
+                </select>
+            </div>
+            <div>
+                <label for="Fecha">Fecha del evento</label>
+                <input type="date" name="fecha" id="fecha_evento">
+            </div>
+            <div class="tipo_carta">
+                <p>Carta</p>
+                <label for="carta">Standard</label>
+                <input type="radio" name="carta" id="tipo_carta">
+                <label for="carta">Premiun</label>
+                <input type="radio" name="carta" id="tipo_carta">
+                <label for="carta">Extra Premium</label>
+                <input type="radio" name="carta" id="tipo_carta">
+            </div>
+            <div>
+                <label for="barra">Barra</label>
+                <select name="barra" id="tipo_barra">
+                    <option value="barra">Barra 1</option>
+                    <option value="barra">Barra 2</option>
+                    <option value="barra">Barra 3</option>
+                    <option value="barra">Barra 4</option>
+                </select>
+            </div>
+            <div class="cant_personas">
+                <p>Cantidad de personas</p>
+                <label for="0y50">Entre 0 y 50</label>
+                <input type="checkbox" name="cantidad" id="cant" >
+                <label for="0y50">Entre 50 y 100</label>
+                <input type="checkbox" name="cantidad" id="cant">
+                <label for="0y50">Mas de 100</label>
+                <input type="checkbox" name="cantidad" id="cant">
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="mail">
+            </div>
+            <div class="captcha">
+                <label for="captcha">Captcha</label>
+                <p id="captcha_test"></p>
+                <input type="text" id="respuesta_captcha" placeholder="escribe aqui el captcha">
+                <input type="submit" id="enviar" value="Enviar">
+                <img id="mensaje_confirmacion" src="" alt="">               
+            </div>  
+        </form>
+    </div>
+    <footer>
+        <div class="email_wsp">
+            <p>Email: ariasbartenders@gmail.com</p>
+            <p>Whatsapp: 2281573190</p>
+        </div>
+        <div class="logo_footer">
+            <img src="imagenes/logo/logo2.jpg" alt="">
+        </div>       
+    </footer>
+    <div class="copyright">
+        <p>&copy; 2022 Arias Bartenders todos los derechos reservados</p>
+    </div>
+    <script type="text/javascript" src="js/captcha.js"></script>
+    <script type="text/javascript" src="js/visibilidad-menu.js"></script>
+</body>
+</html>

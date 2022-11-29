@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/design_responsive.css">
+    <title>Cartas</title>
+</head>
+<body>
+    <header class="encabezado">
+        <img src="imagenes/logo/logo1.jpg" alt="logo arias bartenders">
+    </header>
+    <div class="btn-menu"> 
+        <img src="imagenes/menuHamburguesa.jpg" alt="Menu">
+    </div>
+    <div class="links">
+        <div class="redes">
+            <a href="https://www.facebook.com/Arias.Bartenders.oficial" target="_blank"><img  src="imagenes/redes_sociales/facebook.jpg" alt="facebook"></a>
+            <a href="https://www.instagram.com/arias.bartenders/?hl=es-la" target="_blank"><img  src="imagenes/redes_sociales/instagram.jpg" alt="instagram"></a>
+        </div>   
+        <nav>
+            <ul class="navegador">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="cartas_de_tragos.html">Cartas</a></li>
+                <li><a href="tipos_de_barras.html">Barras</a></li>
+                <li><a href="index.html#nosotros">Quienes Somos</a></li>   
+            </ul>
+        </nav>             
+    </div>
+    <div class="contenedor_cartas">
+        <div class="standard">
+            <h2>Carta Standard</h2>
+            <ul>
+                <li>Fernet</li>
+                <li>Daiquiri</li>
+                <li>Garibaldi</li>
+                <li>Cerveza</li>
+                <li>Whisky</li>
+            </ul>
+        </div>
+        <div class="premium">
+            <h2>Carta Premium</h2>
+            <ul>
+                <li>Caipiroska</li>
+                <li>Gin Tonic</li>
+                <li>Tom Collins</li>
+                <li>Cerveza tirada</li>
+                <li>Whisky</li>
+            </ul>
+        </div>
+        <div class="extra_premium">
+            <h2>Carta Extra Premium</h2>
+            <ul>
+                <li>Trago de autor</li>
+                <li>Mojito</li>
+                <li>Whisky</li>
+                <li>Negroni</li>
+                <li>Champagne</li>
+            </ul>
+        </div>
+    </div>
+    <h2 class="titulo_tabla">Tabla de bebidas</h2>
+    <div class="tabla">
+        <table id="table">
+            
+        </table>   
+    </div>
+    <div id="formularioEdit" class="divformularioEditar">
+        
+    </div>
+    <div class="contenedor-msj-error" >
+        <p id="msj-error" class="msj-error esconder"></p>
+    </div>
+    <div class="formulario_tabla">
+        <form id="formulario">
+            <div>
+                <label for="">Nuevo nombre de carta</label>
+                <input type="text" name="nombre_carta" required>
+            </div>
+            <div>
+                <label for="">Fernet</label>
+                <input type="text" name="marca_fernet" required>
+            </div>
+            <div>
+                <label for="">Vodka</label>
+                <input type="text" name="marca_vodka" required>
+            </div>
+            <div>
+                <label for="">Ron</label>
+                <input type="text" name="marca_ron" required>
+            </div>
+            <div>
+                <label for="">Gin</label>
+                <input type="text" name="marca_gin" required>
+            </div>
+            <div>
+                <label for="">Aperitivo</label>
+                <input type="text" name="marca_aperitivo" required>
+            </div>
+            <div>
+                <label for="">Whisky</label>
+                <input type="text" name="marca_whisky" required>
+            </div>
+            <div>
+                <label for="">Cerveza</label>
+                <input type="text" name="marca_cerveza" required>
+            </div>
+            <div>
+                <label for="">Champagne</label>
+                <input type="text" name="marca_champagne" required>
+            </div>
+            <div>
+                <input type="submit" id="btn_agregar_carta" value="Agregar Carta">               
+            </div>
+            <div>
+                <button id="btn_agregar_cartas_random">Agregar cartas nuevas</button>
+                <input type="number" name="cantCartas" id="cantidadCartas" class="cantCartas">
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="email_wsp">
+            <p>Email: ariasbartenders@gmail.com</p>
+            <p>Whatsapp: 2281573190</p>
+        </div>
+        <div class="logo_footer">
+            <img src="imagenes/logo/logo2.jpg" alt="">
+        </div>
+    </footer>
+    <div class="copyright">
+        <p>&copy; 2022 Arias Bartenders todos los derechos reservados</p>
+    </div>
+    <script type="text/javascript" src="js/tabla-dinamica-rest.js"></script>
+    <script type="text/javascript" src="js/visibilidad-menu.js"></script>
+</body>
+</html>

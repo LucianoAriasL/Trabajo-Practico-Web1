@@ -1,0 +1,527 @@
+header, .btn-menu,ul.navegador.mostrar,.links, .links div, footer, .barras, .contenedor_cartas,.contenedor-msj-error, .clientes_nosotros, .info_servicio, .info_servicio div{
+    display:flex;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(51, 51, 51); 
+}
+
+body, ul.navegador,.tipo_carta p , .cant_personas p, .captcha p,.btn-menu img {
+    margin:0;
+}
+
+header, .info_servicio div, .contacto, .contenedor-msj-error {
+    justify-content: center;
+}
+
+ul.navegador, .contenedor_cartas, .contenedor_cartas ul, .barras{
+    flex-direction: column;
+}
+
+.info_servicio div, footer, .contenedor_cartas, .tabla{
+    align-items: center;
+}
+
+.reseñas p, .quienes_somos p, .contactanos, .standard, .premium, .extra_premium, th, .cartas_titulo, .msj-error, .fiestas h2 {
+    color:white;
+}
+
+.clientes_nosotros h2, .quienes_somos p, .contactanos, .copyright, .contenedor_cartas h2, .contenedor_cartas li, table, .titulo_barras, .barras div h2 , .barras div ul, .barras div ul li, .fiestas h2{
+    text-align: center;
+}
+header img {
+    width: 6rem;
+    height:6rem;  
+}
+
+header{
+    background:rgba(0, 0, 0, 0.7) url(../imagenes/logo/fondo_logo_mobile.jpg);
+    background-blend-mode: darken;  
+}
+
+.links {
+    justify-content: space-between;
+     
+}
+
+.btn-menu {
+    padding:10px;
+    background-color: white;   
+    justify-content: flex-end;
+    
+}
+.btn-menu img {
+    padding: 0;
+    height:1rem;
+}
+
+ul.navegador { 
+    width: 100%;
+    padding: 0px;
+    display:none;
+}
+
+.links nav ul li {
+    padding: 7px;
+    list-style: none;
+    background-color: white;
+    
+}
+
+.links .redes {
+    align-items: flex-start;
+    height: max-content;
+}
+
+.links nav ul li:hover {
+    background-color:rgb(136, 136, 136);
+}
+
+.links nav ul li a {
+    text-decoration: none;
+    color:black;
+}
+
+.links div {
+    align-items: center;
+    justify-content:left;
+}
+
+.links div img {
+    width: 35px;
+    margin: 0.2rem;    
+}
+
+.info_servicio div {
+    width: 33.3%;
+    background-size: 100%;
+}
+
+.carta_tragos img {
+    width: 7.5rem;
+}
+
+.tipos_de_barras img {
+    width: 6.5rem;
+}
+
+.imagenes_eventos img {
+    width: 5.5rem;
+}
+
+.carta_tragos {
+    background-image: url(../imagenes/logos_servicios/fondo_carta.jpg);
+}
+
+.tipos_de_barras {
+    background-image:  url(../imagenes/logos_servicios/fondo_barra.jpg);
+}
+
+.imagenes_eventos {
+    background-image: url(../imagenes/logos_servicios/fondo_eventos1.jpg);
+}
+
+.clientes_nosotros{
+    flex-direction: column-reverse;
+}
+
+.clientes_nosotros h2 {
+    text-shadow: 2px 2px 5px white;
+}
+
+.reseñas p, .quienes_somos h2 {
+    font-style: italic;    
+}
+
+.reseñas h2 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.reseñas div {
+    padding: 0.5rem;
+}
+
+.quienes_somos p {
+    font-size: 1rem;
+}
+
+.quienes_somos img {
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+}
+
+.contactanos {
+    text-shadow: 3px 3px 3px black;
+    padding-top: 1rem;
+}
+
+.contacto form {
+    background-color: rgb(184, 159, 159);
+    width: 100%;
+    display: block;
+    padding: 4px;
+    font-size: 18px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.contacto div {
+    padding: 10px;
+}
+
+.cant_personas label { 
+    margin-left: 8px;
+}
+
+.captcha p {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: line-through;
+    font-size: 25px;
+}
+
+.captcha img{
+    height:30px; 
+}
+
+footer {
+    background-color: rgb(143, 140, 129);
+    justify-content: space-between; 
+}
+
+footer p{
+    font-size: 0.7rem;
+    padding:5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo_footer img {
+    width: 4rem;
+    height: 4rem;
+    padding: 1rem;
+}
+
+.copyright {
+    font-size: 0.5rem;
+}
+
+.contenedor_cartas{  
+    height: auto;
+}
+
+.standard, .premium, .extra_premium{
+    margin:5px;
+    padding: 10px;   
+    width: 55%;
+    border: 4px groove;
+    border-radius: 10px;
+    background-blend-mode: darken; 
+}
+
+.contenedor_cartas h2, .contenedor_cartas li {
+    text-shadow: 3px 3px 3px black;
+}
+
+.standard{
+    background:rgba(0, 0, 0, 0.7) url(../imagenes/cartas/standard.jpg);
+    background-size: 100%;
+    border-color: rgb(117, 117, 117);
+    box-shadow: 8px 8px 8px rgb(117, 117, 117);
+}
+
+.premium{
+    background:rgba(0, 0, 0, 0.7) url(../imagenes/cartas/premium.jpg);
+    background-size: 100%;
+    border-color: rgb(90, 90, 168);
+    box-shadow: 8px 8px 8px rgb(90, 90, 168);
+}
+
+.extra_premium{
+    background:rgba(0, 0, 0, 0.7) url(../imagenes/cartas/extra_premium.jpg);
+    background-size: 100%;
+    border-color: gold;
+    box-shadow: 8px 8px 8px gold;
+}
+
+.contenedor_cartas div ul li{
+    list-style: none;
+    border: none;
+    margin-right: 30px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 3px black;
+}
+
+.titulo_tabla {
+    padding-top: 30px;
+    text-shadow: 2px 2px 3px white;
+}
+
+.tabla{  
+    margin: 10px;
+    overflow:auto;
+    width:auto;
+}
+
+table{
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+th{
+    background-color: grey;
+    padding: 15px;
+}
+
+.cartas_titulo {
+    background-color: rgb(44, 27, 27);
+    padding: 15px;
+}
+
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+td {
+    background-color: rgb(212, 212, 212);
+}
+
+table tr td.btns-editor {
+    background-color: transparent;
+}
+
+.btns-editor button {
+    margin: 2px;
+}
+
+.esconder {
+    display: none;
+}
+.mostrar {
+    display: block;
+}
+.msj-error{
+    margin-top: 0;
+    padding: 0.5rem;
+    width: max-content;
+    background-color: red;
+    border: 1px solid black
+}
+
+.formularioEditar{
+    position: fixed;
+    top: 5rem;
+    bottom: auto;
+    left: 20%;
+    right: 27%;
+    
+}
+
+.formulario_tabla form, .divformularioEditar form{
+    border: 2px brown solid;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgb(78, 46, 46);
+    color: azure;
+}
+
+.formulario_tabla div, .divformularioEditar div {
+    padding: 2px;
+}
+.cantCartas{
+    width: 2rem;
+}
+.titulo_barras {
+    text-shadow: 3px 3px 3px white;
+}
+
+.barras div h2 {
+    font-size: 2rem;
+}
+
+.barras div ul li {
+    list-style: none;
+}
+
+.barras div h2 , .barras div ul, .barras div ul li{
+    margin: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.barras div img {
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    width:100%;
+}
+
+.barras div .barra_items {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.fiestas img {
+    width: 44%;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.fiestas h2 {
+    background-color: black;
+    margin-top: 40px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 600px){
+
+    .links nav ul li,.links nav ul, .copyright, .logo_footer, footer, .contacto, .clientes_nosotros, .barras, .listas, .tabla, .listado_de_tragos, .contenedor_cartas, .fiestas div {
+        display: flex;
+     }
+    .tabla {
+        flex-direction: column;
+    }
+    header img {
+        width: auto;
+        height: auto;  
+    }
+
+    header {
+        background:rgba(0, 0, 0, 0.7) url(../imagenes/logo/fondo_logo.jpg);
+        height: 200px;     
+    }
+
+    .btn-menu {
+        display:none;
+    }
+
+    .links nav ul {   
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 10px;
+        text-transform: capitalize;
+        font-size: 20px;
+    }
+
+    .links nav {
+        width: 50%;      
+    }
+
+    .links nav ul li {
+        padding: 23.5px;
+    }
+
+    .links {
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+        padding: 10px;
+        align-items: center;
+        height: 50px;
+        border-radius:10px;   
+        background-color: rgb(255, 255, 255);
+        margin:15px;
+        box-shadow: 3px 3px 3px black; 
+    }
+
+    .links div {
+        width: 25%;
+        justify-content: flex-end;
+    }
+
+    .info_servicio {
+        height: 500px;   
+    }
+
+    .carta_tragos img {
+        width: 9.5rem;
+    }
+    
+    .tipos_de_barras img {
+        width: 8.5rem;
+    }
+    
+    .imagenes_eventos img {
+        width: 7.5rem;
+    }
+
+    .clientes_nosotros{
+        flex-direction: row;
+    }
+
+    .reseñas h2{
+        text-align: start;
+    }
+
+    .reseñas {
+        padding:0.5rem;
+    }
+
+    .quienes_somos h2 {  
+        font-size: 2rem;
+    }
+
+    .contacto form {
+        width: 35%;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+
+    .logo_footer img {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .copyright p {
+        width:100%;
+        font-size: 0.7rem;
+    }
+
+    .barras{  
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .fiestas img {
+        width: 25%;
+    }
+
+    .fiestas div {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contenedor_cartas{  
+        flex-direction: row;
+        justify-content: space-around;
+        height: 450px;
+        align-items: flex-start;
+    }
+
+    .standard, .premium, .extra_premium{
+        margin:0px;
+        width:25%;
+    }
+
+    .contenedor_cartas div ul li{
+        padding-top: 40px;
+    }
+
+    .formulario_tabla form, .divformularioEditar form {
+        width: max-content;
+    }
+    
+    .formularioEditar{
+        position: fixed;
+        top: 12rem;
+        bottom: auto;
+        left: 35%;
+        right: 0;
+    }
+}
